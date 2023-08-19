@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  
+    <title>Document</title>
+</head>
+
+<body >
+
+
+<div>
+    <h1 class="h1-form">فرم اطلاعات</h1>
+    <ul class="nave-iteam">
+        <li class="nav-menu">
+            <a class="nav-link" href="">ثبت نام</a>
+        </li>
+        <li class="nav-menu">
+            <a class="nav-link" href="">قوانین</a>
+        </li>
+    </ul>
+</div>
+<br/>
+\
+
+
+
+
+
+
+
+    <form method="get" action="" enctype="multipart/form-data" class="card">
+<div class="form-btn">
+   <div class="form-name"> <label>نام:</label> <input type="text" required autofocus placeholder="نام را وارد کنید" name="name"/></div>
+   <div class="form-last"> <label>نام خانوادگی:</label><input type="text" required placeholder="نام خانوادگی را وارد کنید" name="last name"></div>
+    <label>شماره تماس:</label><input type="tel" required placeholder="شماره تماس خود را وارد کنید" name="phone number">
+<div class="form-last">    <label>ایمیل:</label><input type="email" required placeholder="ایمیل خود را وارد کنید"></div>
+
+</div>
+<hr/>
+
+<div class="form-for">
+        <label> جنیست:</label><br/>
+        <input type="radio" name="sex" ><label>مرد</label>
+        <input type="radio" name="sex" ><label>زن</label><br/><br/>
+        <label>سن:</label><input type="date" name="age"><br/><br/>
+        <label>میزان تحصیلات:</label><select name="univers">
+            <option value="دیپلم">دیپلم</option>
+            <option value="فوق دیپلم">فوق دیپلم</option>
+            <option value="لیسانس">لیسانس</option>
+        </select><br/><br/>
+        <label>عکس کارت ملی خود را وارد کنید:</label> <input type="file" ><br/><br/>
+        <label> ثبت نام برای:</label>
+        <input type="checkbox" name="check" ><label>آموزش رانندگی</label>
+        <input type="checkbox" name="check" ><label>آزمون تست</label><br/><br/>
+
+
+        <label>آدرس:</label><textarea name="adress"  cols="30" rows="10" aria-required="true" ></textarea><br/><br/>
+    </div>
+    
+        <div class="btn">
+        <input class="btn-sabt" type="submit" value="ثبت نام">
+       <input class="btn-sabt" type="reset" value="بازنشانی فرم">
+    </div>
+    </form>
+
+ 
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+body{
+    font-family:'tahoma', Geneva, Verdana, sans-serif;
+    background-color: beige;
+    font-size: 18px;
+    font-weight: 450;
+    direction: rtl;
+}
+.h1-form{
+    margin-right: 43%;
+}
+.nav-menu{
+    display: inline;
+    margin: 0px 2%;
+    padding: 3px 3%;
+    width: 85px;
+    height: 20px;
+    border: 2px solid silver;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(252, 251, 246);
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px silver;
+    font-size: 18px;
+}
+.nav-link{
+    color: black;
+}
+.nav-menu:hover{
+    background-color: rgba(211, 0, 18, 0.788);
+
+}
+
+.nave-iteam{
+    margin-right:37% ;
+}
+a{
+    text-decoration: none;
+}
+.form-btn{
+    padding-right: 5px;
+    padding-top: 30px;
+    
+    
+    
+    
+    
+}
+.form-last{
+    display: inline;
+    padding: 25px;
+}
+.form-name{
+    display: inline;
+    margin-right: 10px;
+   
+   
+ }
+ .card{
+    background-color: rgba(184, 178, 170, 0.062);
+    width: 1126px;
+    height: 550px;
+    box-shadow: inset 0 0 10px 10px #52554028;
+     margin-right: 14%;
+
+}
+
+.form-for{
+    padding-right: 10px;
+}
+.btn-sabt{
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(7, 86, 122);
+    color: rgb(250, 248, 248);
+    border: 2px solid rgba(36, 59, 90, 0.349);
+    height: 100px;
+    height: 40px;
+}
+.btn{
+    padding-right: 43%;
+}
